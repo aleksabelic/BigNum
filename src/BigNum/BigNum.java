@@ -8,21 +8,23 @@ public class BigNum {
         value = num;
     }
 
-    public String toString(BigNum num){
+    public String toString(){
         //method that returns a String representing the number
-
-        return value;
+        return this.value;
     }
-    public static double plus(BigNum numTwo){
+    public static BigNum plus(BigNum numTwo){
         //method that takes a second BigNum and returns the sum of the two numbers
         //value of a is this.value
         //value of b is numTwo.value
-        return 1;
+        BigNum output = new BigNum("0");
+        return output;
+
     }
-    public static double times(double numTwo){
+    public static BigNum times(BigNum numTwo){
         //method that takes a second BigNum and returns the product of the two numbers.
 
-        return 1;
+        BigNum output = new BigNum("0");
+        return output;
 
     }
 }
