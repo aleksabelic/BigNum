@@ -1,16 +1,28 @@
 package BigNum;
 
 public class BigNum {
-    public static void BigNum(String arg){
 
-    }
-    public static String toString(double num){
+    String value;
 
+    public BigNum(String num){
+        value = num;
     }
-    public static double plus(double numOne, double numTwo){
 
+    public String toString(BigNum num){
+        //method that returns a String representing the number
+
+        return value;
     }
-    public static double times(double numOne, double numTwo){
+    public static double plus(BigNum numTwo){
+        //method that takes a second BigNum and returns the sum of the two numbers
+        //value of a is this.value
+        //value of b is numTwo.value
+        return 1;
+    }
+    public static double times(double numTwo){
+        //method that takes a second BigNum and returns the product of the two numbers.
+
+        return 1;
 
     }
 }
