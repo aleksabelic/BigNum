@@ -1,6 +1,6 @@
 //Haley Rovner, Aleksa Belic, Kendall Malone
 
-package BigNum;
+package bignum;
 
 public class BigNum {
 
